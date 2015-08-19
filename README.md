@@ -8,3 +8,4 @@ Stack Overflow 上面 Android 相关高 vote 问答的整理翻译。
  - [为什么 Android 模拟器这么慢？如何为它加速？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/why-is-the-android-emulator-so-slow-how-can-we-speed-up-the-android-emulator.md)
  - [UserManager.isUserAGoat() 的使用案例？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/proper-use-cases-for-android-usermanager-isuseragoat.md)
  - [关闭 / 隐藏 Android 软键盘](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/close-hide-the-android-soft-keyboard.md)
+ - [Eclipse Android 插件提示“Debug certificate expired”错误](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/debug-certificate-expired-error-in-eclipse-android-plugins.md)
