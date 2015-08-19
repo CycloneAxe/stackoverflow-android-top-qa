@@ -2,7 +2,7 @@
 
 [问题链接](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
 
-我正在看 [Android 4.2](http://en.wikipedia.org/wiki/Android_version_history#Android_4.1.2F4.2_Jelly_Bean) 引入的新 API。当看到 `[UserManager](http://developer.android.com/reference/android/os/UserManager.html)` 类的时候遇到了这样一个方法：
+我正在看 [Android 4.2](http://en.wikipedia.org/wiki/Android_version_history#Android_4.1.2F4.2_Jelly_Bean) 引入的新 API。当看到 [`UserManager`](http://developer.android.com/reference/android/os/UserManager.html) 类的时候遇到了这样一个方法：
 
 > public boolean isUserAGoat ()
 > 
