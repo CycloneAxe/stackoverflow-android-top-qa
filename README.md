@@ -13,3 +13,4 @@ Stack Overflow 上面 Android 相关高 vote 问答的整理翻译。
  - [让 EditText 在 Activity 启动时不自动获得焦点](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/stop-edittext-from-gaining-focus-at-activity-startup.md)
  - [Android 设备有没有唯一 ID？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/is-there-a-unique-android-device-id.md)
  - [ListView 图片的延迟加载](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/lazy-load-of-images-in-listview.md)
+ - [有办法在 Android 上面运行 Python 吗？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/is-there-a-way-to-run-python-on-android.md)
