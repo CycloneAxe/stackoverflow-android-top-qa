@@ -9,3 +9,4 @@ Stack Overflow 上面 Android 相关高 vote 问答的整理翻译。
  - [UserManager.isUserAGoat() 的使用案例？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/proper-use-cases-for-android-usermanager-isuseragoat.md)
  - [关闭 / 隐藏 Android 软键盘](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/close-hide-the-android-soft-keyboard.md)
  - [Eclipse Android 插件提示“Debug certificate expired”错误](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/debug-certificate-expired-error-in-eclipse-android-plugins.md)
+ - [保存 Activity 状态](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/saving-activity-state-in-android.md)
