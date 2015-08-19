@@ -4,9 +4,7 @@
 
 Android 中 `px`、`dip`、`dp` 和 `sp` 四种单位有什么区别？
 
-- - -
-
-[答案链接](http://stackoverflow.com/questions/2025282/difference-between-px-dp-dip-and-sp-in-android/2025541#2025541)
+## [onebree 的答案](http://stackoverflow.com/questions/2025282/difference-between-px-dp-dip-and-sp-in-android/2025541#2025541)
 
  - **px** 是一个像素；
  - **sp** 是尺度独立（scale-independent）像素；
