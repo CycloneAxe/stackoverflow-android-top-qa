@@ -6,7 +6,7 @@
 
 ## [Reto Meier 的答案](http://stackoverflow.com/questions/1109022/close-hide-the-android-soft-keyboard/1109108#1109108)
 
-你可以使用 [InputMethodManager](http://developer.android.com/reference/android/view/inputmethod/InputMethodManager.html) 强制让 Android 隐藏虚拟键盘。调用 `[hideSoftInputFromWindow](http://developer.android.com/reference/android/view/inputmethod/InputMethodManager.html#hideSoftInputFromWindow%28android.os.IBinder,%20int%29)`，把包含文本框的窗口标记（token）传递进去。
+你可以使用 [InputMethodManager](http://developer.android.com/reference/android/view/inputmethod/InputMethodManager.html) 强制让 Android 隐藏虚拟键盘。调用 `hideSoftInputFromWindow)`，把包含文本框的窗口标记（token）传递进去。
 
 ```java
 EditText myEditText = (EditText) findViewById(R.id.myEditText);
