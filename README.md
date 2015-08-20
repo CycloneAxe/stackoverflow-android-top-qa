@@ -16,7 +16,7 @@ Stack Overflow 上面 Android 相关高 vote 问答的整理翻译。
    - [获取屏幕维度的像素数](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/get-screen-dimensions-in-pixels.md)
    - [如何让 TextView 的文字水平、垂直居中？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/how-do-i-center-text-horizontally-and-vertically-in-a-textview-in-android.md)
    - [match_parent 和 fill_parent 的区别是什么？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/what-is-the-difference-between-match-parent-and-fill-parent.md)
- - 开发环境（IDE / SDK / 模拟器）
+ - 开发环境（IDE、SDK、模拟器）
    - [为什么 Android 模拟器这么慢？如何为它加速？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/why-is-the-android-emulator-so-slow-how-can-we-speed-up-the-android-emulator.md)
    - [Eclipse Android 插件提示“Debug certificate expired”错误](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/debug-certificate-expired-error-in-eclipse-android-plugins.md)
    - [安装 Android SDK 时找不到 JDK](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/android-sdk-installation-doesnt-find-jdk.md)
