@@ -17,3 +17,4 @@ Stack Overflow 上面 Android 相关高 vote 问答的整理翻译。
  - [获取屏幕维度的像素数](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/get-screen-dimensions-in-pixels.md)
  - [android.os.NetworkOnMainThreadException](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/android-os-networkonmainthreadexception.md)
  - [安装 Android SDK 时找不到 JDK](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/android-sdk-installation-doesnt-find-jdk.md)
+ - [如何让 TextView 的文字水平、垂直居中？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/how-do-i-center-text-horizontally-and-vertically-in-a-textview-in-android.md)
