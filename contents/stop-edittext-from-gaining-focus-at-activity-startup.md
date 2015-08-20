@@ -41,7 +41,7 @@ Luc 和 Mark 的答案很精彩，不过缺少一个好的例子：
 
 你真正想解决的问题真的是不想让它得到焦点吗？还是说不想让虚拟键盘作为 `EditText` 得到焦点的结果出现？我并不觉得 `EditText` 在启动时获得焦点有什么问题，但是当用户并没有明显地要求 `EditText` 得到焦点却弹出软键盘一定是个问题。
 
-如果是虚拟键盘的问题，参考 `AndroidManifest.xml` 的 [`&lt;activity&gt;` 元素](http://developer.android.com/intl/zh-CN/guide/topics/manifest/activity-element.html#wsoft)的文档。
+如果是虚拟键盘的问题，参考 `AndroidManifest.xml` 的 [`<activity>` 元素](http://developer.android.com/intl/zh-CN/guide/topics/manifest/activity-element.html#wsoft)的文档。
 
  - `android:windowSoftInputMode="stateHidden"`：进入 `Activity` 时永远隐藏键盘；
  - 或者 `android:windowSoftInputMode="stateUnchanged"`：不要做出改变（例如，如果键盘没有显示出来，那就不要显示；如果进入 `Activity` 时键盘已经打开了，那就保持打开）。
