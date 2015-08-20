@@ -14,3 +14,4 @@ Stack Overflow 上面 Android 相关高 vote 问答的整理翻译。
  - [Android 设备有没有唯一 ID？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/is-there-a-unique-android-device-id.md)
  - [ListView 图片的延迟加载](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/lazy-load-of-images-in-listview.md)
  - [有办法在 Android 上面运行 Python 吗？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/is-there-a-way-to-run-python-on-android.md)
+ - [获取屏幕维度的像素数](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/get-screen-dimensions-in-pixels.md)
