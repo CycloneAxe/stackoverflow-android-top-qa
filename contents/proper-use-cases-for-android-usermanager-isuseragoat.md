@@ -1,4 +1,4 @@
-# UserManager.isUserAGoat() 的使用案例？
+# UserManager.isUserAGoat() 的使用案例
 
 [问题链接](http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat)
 
