@@ -6,7 +6,7 @@
 
 ## [Reto Meier 的答案](http://stackoverflow.com/questions/1109022/close-hide-the-android-soft-keyboard/1109108#1109108)
 
-你可以使用 [InputMethodManager](http://developer.android.com/reference/android/view/inputmethod/InputMethodManager.html) 强制让 Android 隐藏虚拟键盘。调用 [`hideSoftInputFromWindow`](http://developer.android.com/reference/android/view/inputmethod/InputMethodManager.html#hideSoftInputFromWindow%28android.os.IBinder,%20int%29)，把包含文本框的窗口标记（token）传递进去。
+你可以使用 [`InputMethodManager`](http://developer.android.com/reference/android/view/inputmethod/InputMethodManager.html) 强制让 Android 隐藏虚拟键盘。调用 [`hideSoftInputFromWindow`](http://developer.android.com/reference/android/view/inputmethod/InputMethodManager.html#hideSoftInputFromWindow%28android.os.IBinder,%20int%29)，把包含文本框的窗口标记（token）传递进去。
 
 ```java
 EditText myEditText = (EditText) findViewById(R.id.myEditText);
@@ -42,7 +42,7 @@ getWindow().setSoftInputMode(
 
 这个悲伤的故事将会以一个丑陋的事实结束：要隐藏键盘，你需要提供两种鉴定方式——一个是 `Context`，另一个要么是 `View`，要么是 `Window`。
 
-我写了一个静态工具方法，从而能可靠地完成这个操作，只需要提供一个 Activity：
+我写了一个静态工具方法，从而能可靠地完成这个操作，只需要提供一个 `Activity`：
 
 ```java
 public static void hide_keyboard(Activity activity) {
@@ -57,15 +57,15 @@ public static void hide_keyboard(Activity activity) {
 }
 ```
 
-要注意，这个方法只有从一个 Activity 调用时才有效！这个方法调用了目标 Activity 的 getCurrentFocus 从而获取适当的窗口 token。
+要注意，这个方法只有从一个 `Activity` 调用时才有效！这个方法调用了目标 `Activity` 的 `getCurrentFocus` 从而获取适当的窗口 token。
 
-但如果你想从一个 DialogFragment 中的 EditText 来隐藏键盘呢？你不能像这样调用上面的方法：
+但如果你想从一个 `DialogFragment` 中的 `EditText` 来隐藏键盘呢？你不能像这样调用上面的方法：
 
 ```java
 hide_keyboard(get_activity()); // 没用
 ```
 
-这样不会达到效果，因为你传递的是 Fragment 的宿主 Activity 的引用，而在显示 Fragment 的时候，这个 Activity 是没有获得焦点的控件的！因此，要从 Fragment 隐藏键盘，需要用到更加低级的、更加普遍也更丑陋的方法：
+这样不会达到效果，因为你传递的是 `Fragment` 的宿主 `Activity` 的引用，而在显示 `Fragment` 的时候，这个 `Activity` 是没有获得焦点的控件的！因此，要从 `Fragment` 隐藏键盘，需要用到更加低级的、更加普遍也更丑陋的方法：
 
 ```java
 public static void hide_keyboard_from(Context context, View view) {
@@ -76,9 +76,9 @@ public static void hide_keyboard_from(Context context, View view) {
 
 以下是为了解决这个问题而四处搜集到的一些额外信息：
 
-**关于 windowSoftInputMode**
+**关于 `windowSoftInputMode`**
 
-还有另一种需要注意的观点。默认情况下，Android 会自动为 Activity 的第一个 EditText 或者其他可获取焦点的控件赋予初始焦点，输入法（通常也就是软键盘）也自然会响应这个事件，自动出现。`AndroidManifest.xml` 中的 `windowSoftInputMode` 属性如果设置为 `stateAlwaysHidden`，键盘就会忽略这个自动分配初始焦点的事件。
+还有另一种需要注意的观点。默认情况下，Android 会自动为 `Activity` 的第一个 `EditText` 或者其他可获取焦点的控件赋予初始焦点，输入法（通常也就是软键盘）也自然会响应这个事件，自动出现。`AndroidManifest.xml` 中的 `windowSoftInputMode` 属性如果设置为 `stateAlwaysHidden`，键盘就会忽略这个自动分配初始焦点的事件。
 
 ```xml
 <activity
@@ -86,7 +86,7 @@ public static void hide_keyboard_from(Context context, View view) {
     android:windowSoftInputMode="stateAlwaysHidden"/>
 ```
 
-几乎无法相信的是，上面的代码对于触摸控件居然毫无作用，键盘仍然会打开（除非为控件设置 `focusable="false"` 并且/或者 `focusableInTouchMode="false"`）。很明显，windowSoftInputMode 只对自动获得焦点事件有作用，而对触摸触发的焦点事件没有影响。
+几乎无法相信的是，上面的代码对于触摸控件居然毫无作用，键盘仍然会打开（除非为控件设置 `focusable="false"` 并且/或者 `focusableInTouchMode="false"`）。很明显，`windowSoftInputMode` 只对自动获得焦点事件有作用，而对触摸触发的焦点事件没有影响。
 
 因此，`stateAlwaysHidden` 这个名字取得太烂了。或许叫做 `ignoreInitialFocus` 还不错。
 
