@@ -16,3 +16,4 @@ Stack Overflow 上面 Android 相关高 vote 问答的整理翻译。
  - [有办法在 Android 上面运行 Python 吗？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/is-there-a-way-to-run-python-on-android.md)
  - [获取屏幕维度的像素数](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/get-screen-dimensions-in-pixels.md)
  - [android.os.NetworkOnMainThreadException](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/android-os-networkonmainthreadexception.md)
+ - [安装 Android SDK 时找不到 JDK](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/android-sdk-installation-doesnt-find-jdk.md)
