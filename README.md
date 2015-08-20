@@ -19,6 +19,7 @@ Stack Overflow 上面 Android 相关高 vote 问答的整理翻译。
  - [安装 Android SDK 时找不到 JDK](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/android-sdk-installation-doesnt-find-jdk.md)
  - [如何让 TextView 的文字水平、垂直居中？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/how-do-i-center-text-horizontally-and-vertically-in-a-textview-in-android.md)
  - [Eclipse 导入项目之后出现“必须重写父类方法”错误](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/must-override-a-superclass-method-errors-after-importing-a-project-into-eclipse.md)
+ - [如何旋转 Android 模拟器的屏幕？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/how-to-rotate-the-android-emulator-display.md)
 
 ## 版权信息
 
