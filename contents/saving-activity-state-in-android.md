@@ -30,7 +30,7 @@ public class HelloAndroid extends Activity {
 }
 ```
 
-我以为像上面这样做就完成了，但是不论我怎么离开 app，它总是只显示第一条消息。我确定需要重载 onPause 或者其他的什么方法，但是我翻了 30 分钟文档，也没有找到什么显而易见的解决方法。请大家帮帮我。
+我以为像上面这样做就完成了，但是不论我怎么离开 app，它总是只显示第一条消息。我确定需要重载 `onPause` 或者其他的什么方法，但是我翻了 30 分钟文档，也没有找到什么显而易见的解决方法。请大家帮帮我。
 
 ## [Reto Meier 的答案](http://stackoverflow.com/questions/151777/saving-activity-state-in-android/151940#151940)
 
@@ -69,7 +69,7 @@ public void onRestoreInstanceState(Bundle savedInstanceState) {
 
 ## [Dave L. 的答案](http://stackoverflow.com/questions/151777/saving-activity-state-in-android/151822#151822)
 
-`savedInstanceState` 只是用于保存与当前 Activity 实例有关的状态，例如当前的导航或者选择，当 Android 销毁并重建这个 Activity 时，可以恢复到之前的样子。参考 [`onCreate`](http://developer.android.com/reference/android/app/Activity.html#onCreate%28android.os.Bundle%29) 和 [`onSavedInstanceState`](http://developer.android.com/reference/android/app/Activity.html#onSaveInstanceState%28android.os.Bundle%29) 的文档。
+`savedInstanceState` 只是用于保存与当前 `Activity` 实例有关的状态，例如当前的导航或者选择，当 Android 销毁并重建这个 `Activity` 时，可以恢复到之前的样子。参考 [`onCreate`](http://developer.android.com/reference/android/app/Activity.html#onCreate%28android.os.Bundle%29) 和 [`onSavedInstanceState`](http://developer.android.com/reference/android/app/Activity.html#onSaveInstanceState%28android.os.Bundle%29) 的文档。
 
 对于长期存在的状态，考虑使用 SQLite 数据库、文件或者选项。参考 [Saving Persistent State](http://developer.android.com/reference/android/app/Activity.html#SavingPersistentState)。
 
@@ -85,15 +85,15 @@ public void onRestoreInstanceState(Bundle savedInstanceState) {
 
 **编辑：**为了进一步说明，附上 `onSavedInstanceState()` 的文档：
 
-> 这个方法会在 activity 将要被杀死之前调用，从而在将来回到 activity 的时候恢复之前的状态。例如，如果 activity B 在 activity A 之上启动，某一时刻 activity A 被杀死从而释放资源，那么 activity A 会有机会通过这个方法保存当前的用户界面状态从而在用户返回 activity A 的时候，用户界面的状态可以通过 `onCreate(Bundle)` 或者 `onRestoreInstanceState(Bundle)` 来恢复。
+> 这个方法会在 `Activity` 将要被杀死之前调用，从而在将来回到 `Activity` 的时候恢复之前的状态。例如，如果 `Activity` B 在 `Activity` A 之上启动，某一时刻 `Activity` A 被杀死从而释放资源，那么 `Activity` A 会有机会通过这个方法保存当前的用户界面状态从而在用户返回 `Activity` A 的时候，用户界面的状态可以通过 `onCreate(Bundle)` 或者 `onRestoreInstanceState(Bundle)` 来恢复。
 
 ## [Martin Belcher - Eigo 的答案](http://stackoverflow.com/questions/151777/saving-activity-state-in-android/3584836#3584836)
 
-我的同事写了一篇解释 Android 设备应用程序状态的文章，里面包括对 Activity 的生命周期和状态信息、如何存储状态信息以及保存到状态 `Bundle` 和 `SharePreferences` 的解释。可以[到这里看一看](http://www.eigo.co.uk/Managing-State-in-an-Android-Activity.aspx)。
+我的同事写了一篇解释 Android 设备应用程序状态的文章，里面包括对 `Activity` 的生命周期和状态信息、如何存储状态信息以及保存到状态 `Bundle` 和 `SharePreferences` 的解释。可以[到这里看一看](http://www.eigo.co.uk/Managing-State-in-an-Android-Activity.aspx)。
 
 文章里讲了三种方法：
 
-#### 使用实例状态 Bundle 在应用程序运行期间（临时地）存储本地变量、UI 控件数据
+#### 使用实例状态 `Bundle` 在应用程序运行期间（临时地）存储本地变量、UI 控件数据
 
 ```java
 [示例代码：在状态 Bundle 中存储状态]
@@ -119,7 +119,7 @@ public void onSaveInstanceState(Bundle savedInstanceState)
 }
 ```
 
-#### 使用Shared Preferences在应用程序实例之间存储本地变量、UI 控件数据
+#### 使用 Shared Preferences 在应用程序实例之间存储本地变量、UI 控件数据
 
 ```java
 [示例代码：在 SharedPreferences 中存储状态]
