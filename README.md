@@ -23,6 +23,7 @@ Stack Overflow 上面 Android 相关高 vote 问答的整理翻译。
    - [安装 Android SDK 时找不到 JDK](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/android-sdk-installation-doesnt-find-jdk.md)
    - [Eclipse 导入项目之后出现“必须重写父类方法”错误](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/must-override-a-superclass-method-errors-after-importing-a-project-into-eclipse.md)
    - [如何旋转 Android 模拟器的屏幕？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/how-to-rotate-the-android-emulator-display.md)
+   - [外部 JAR 提示“Conversion to Dalvik format failed with error 1”](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/conversion-to-dalvik-format-failed-with-error-1-on-external-jar.md)
  - 好玩
    - [UserManager.isUserAGoat() 的使用案例](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/proper-use-cases-for-android-usermanager-isuseragoat.md)
    - [有办法在 Android 上面运行 Python 吗？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/is-there-a-way-to-run-python-on-android.md)
