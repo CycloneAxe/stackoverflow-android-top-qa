@@ -77,7 +77,7 @@ public void onRestoreInstanceState(Bundle savedInstanceState) {
 
 注意，根据 [Activity 状态的文档](http://developer.android.com/reference/android/app/Activity.html)，使用 `onSavedInstanceState` 和 `onRestoreInstanceState` 来存储**持久化数据**是***不***安全的。
 
-文档中声明（在“Activity Lifecycler”一节）：
+文档中声明（在“Activity Lifecycle”一节）：
 
 > 注意，持久化数据要在 `onPause()` 中保存，而不能在 `onSaveInstanceState(Bundle)` 中保存，因为后者并不是生命周期的回调方法，所以并不会在文档中描述的每一个情形下都被调用。
 
