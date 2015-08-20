@@ -1,4 +1,4 @@
-# Android 中 px、dp、dip 和 sp 的区别？
+# Android 中 px、dp、dip 和 sp 的区别
 
 [问题链接](http://stackoverflow.com/questions/2025282/difference-between-px-dp-dip-and-sp-in-android)
 
