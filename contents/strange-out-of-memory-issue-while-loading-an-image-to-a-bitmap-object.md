@@ -135,7 +135,7 @@ private Bitmap decodeFile(File f) {
 }
 ```
 
-# [Thomas Vervest 的答案](http://stackoverflow.com/a/3549021/5152089)
+## [Thomas Vervest 的答案](http://stackoverflow.com/a/3549021/5152089)
 
 我对 Fedor 的代码做了一点改进。基本做法是一样的，但是去掉了（我认为）很丑陋的、结果是 2 的幂的 `while` 循环。感谢 Fedor 提出了最初的解决方法，知道发现他的答案之前我一直伸手困扰，而自此之后我也得以写出这个版本:)。
 
