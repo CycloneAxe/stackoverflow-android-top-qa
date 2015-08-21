@@ -29,6 +29,7 @@ Stack Overflow 上面 Android 相关高 vote 问答的整理翻译。
    - [如何旋转 Android 模拟器的屏幕？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/how-to-rotate-the-android-emulator-display.md)
    - [外部 JAR 提示“Conversion to Dalvik format failed with error 1”](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/conversion-to-dalvik-format-failed-with-error-1-on-external-jar.md)
    - [“R cannot be resolved”错误](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/r-cannot-be-resolved-android-error.md)
+   - [“Failed to install *.apk on device *: timeout”错误](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/android-error-failed-to-install-apk-on-device-timeout.md)
  - 好玩
    - [UserManager.isUserAGoat() 的使用案例](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/proper-use-cases-for-android-usermanager-isuseragoat.md)
    - [有办法在 Android 上面运行 Python 吗？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/is-there-a-way-to-run-python-on-android.md)
