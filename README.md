@@ -12,6 +12,7 @@ Stack Overflow 上面 Android 相关高 vote 问答的整理翻译。
    - [基础的手势识别](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/android-basic-gesture-detection.md)
    - [旋转屏幕导致 Activity 重新启动](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/activity-restart-on-rotation-android.md)
    - [退出应用是否不妥？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/quitting-an-application-is-that-frowned-upon.md)
+   - [Context 是什么？](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/what-is-context-in-android.md)
  - UI
    - [Android 中 px、dp、dip 和 sp 的区别](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/difference-between-px-dp-dip-and-sp-in-android.md)
    - [让 EditText 在 Activity 启动时不自动获得焦点](https://github.com/7bitex/stackoverflow-android-top-qa/blob/master/contents/stop-edittext-from-gaining-focus-at-activity-startup.md)
