@@ -10,7 +10,7 @@
 
 注意，现代操作系统（例如 Linux）的内存使用是非常复杂的，非常难易理解。事实上，你能正确理解获取到的那些数据的可能性微乎其微。（有很多次我与其他的工程师们研究内存使用的数据，都会对它们的意义进行长时间的讨论，然而也只能得到一个含糊不清的结论。）
 
-**注意：现在我们可以在 [Managing Your App's Memory] 找到更多的文档，包括这里的大多数内容，也与最新版本的 Android 更加符合。**
+**注意：现在我们可以在 [Managing Your App's Memory](http://developer.android.com/training/articles/memory.html) 找到更多的文档，包括这里的大多数内容，也与最新版本的 Android 更加符合。**
 
 首先大概需要读一下这篇文章的最后一部分，讨论了 Android 是如何管理内存的：
 
