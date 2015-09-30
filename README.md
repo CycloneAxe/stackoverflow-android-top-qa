@@ -1,6 +1,8 @@
 # stackoverflow-android-top-qa
 
-Stack Overflow 上面 Android 相关高 vote 问答的整理翻译。
+Stack Overflow 上 Android 相关高 vote 问答的整理翻译。
+
+Android 历经数年，技术恐早已时过境迁，阅读前后还请仔细斟酌。
 
 ## 问题列表
 
