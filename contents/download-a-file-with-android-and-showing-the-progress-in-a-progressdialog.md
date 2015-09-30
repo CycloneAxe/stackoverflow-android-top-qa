@@ -146,7 +146,7 @@ private class DownloadTask extends AsyncTask<String, Integer, String> {
 <uses-permission android:name="android.permission.WAKE_LOCK" />
 ```
 
-### 2. 使用 Service 下载
+### 2. 使用 `Service` 下载
 
 这里有个大问题：*我如何从 `Service` 更新 `Activity`？*在下面的例子中我们会使用两个你可能不知道的类：`ResultReceiver` 和 `IntentService`。`ResultReceiver` 可以让我们从 `Service` 更新一个线程，而 `IntentService` 是 `Service` 的一个子类，可以建立一个新线程来执行后台工作（你应当知道 `Service` 其实是运行在应用的同一个线程中的，当你派生 `Service` 类的时候，你必须手动建立新线程来运行 CPU 阻塞的操作）。
 
