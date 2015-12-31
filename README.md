@@ -19,6 +19,7 @@ Android 历经数年，技术恐早已时过境迁，阅读前后还请仔细斟
    - ["Activity has leaked window that was originally added"错误](https://github.com/beta/stackoverflow-android-top-qa/blob/master/contents/activity-has-leaked-window-that-was-originally-added.md)
    - [如何获取应用的内存使用情况？](https://github.com/beta/stackoverflow-android-top-qa/blob/master/contents/how-do-i-discover-memory-usage-of-my-application-in-android.md)
    - [下载一个文件并在 ProgressDialog 中显示进度](https://github.com/beta/stackoverflow-android-top-qa/blob/master/contents/download-a-file-with-android-and-showing-the-progress-in-a-progressdialog.md)
+   - [如何从应用中启动 Android 的浏览器打开一个 URL？](https://github.com/beta/stackoverflow-android-top-qa/blob/f58ee754ffecb98955f216f58cd763bddbf35066/contents/how-can-i-open-a-url-in-androids-web-browser-from-my-application.md)
  - UI
    - [Android 中 px、dp、dip 和 sp 的区别](https://github.com/beta/stackoverflow-android-top-qa/blob/master/contents/difference-between-px-dp-dip-and-sp-in-android.md)
    - [让 EditText 在 Activity 启动时不自动获得焦点](https://github.com/beta/stackoverflow-android-top-qa/blob/master/contents/stop-edittext-from-gaining-focus-at-activity-startup.md)
